@@ -28,9 +28,10 @@ public class EmpWageUsingMethods
                totalEmpHrs+=empHrs;
 	       System.out.println("Day #: "+ totalWorkingDays + "Emp hr : "+empHrs);
               }
-           int totalEmpWage = totalEmpHrs*EMP_RATE_PER_HOUR;
-           System.out.println("Total Emp Wage is : " +totalEmpWage);
-           return totalEmpWage;
+         	  int totalEmpWage = totalEmpHrs*EMP_RATE_PER_HOUR;
+           
+		  System.out.println("Total Emp Wage is : " +totalEmpWage);
+                  return totalEmpWage;
        }
 
         public static void main(String[] args)
